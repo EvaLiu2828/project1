@@ -1,0 +1,40 @@
+@import "./common.scss";
+
+#app {
+   .frame {
+       /* 导航栏 样式*/
+        .header.android{
+            height: 45px;
+            .van-nav-bar {
+                padding-top: 0px;
+            }
+        }
+        .header.ios{
+            height: 45px;
+            .van-nav-bar {
+                padding-top: 20px;
+            }
+        }
+        .header.iphoneX{
+            height: 45px;
+            .van-nav-bar {
+                padding-top: 20px;
+            }
+        }
+        .footer.android{
+            height: 50px;
+        }
+        .footer.ios{
+            height: 50px;
+        }
+        .footer.iphoneX{
+            height: 60px;
+        }
+        /* 页面主体 样式 */
+        .main {
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+    } 
+}
+

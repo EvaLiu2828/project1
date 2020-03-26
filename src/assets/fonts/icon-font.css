@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'custom-icon';
+    src: url('./iconfont.ttf') format('truetype');
+}
+.custom-icon {
+    vertical-align: middle;
+    font-family: 'custom-icon';
+    font-style:normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.custom-icon-qiandaocopy::before {
+    content: '\e601';
+}
+.custom-icon-yuanchengluyincopy:before {
+    content: "\e602";
+}
+
+.custom-icon-saomiaohetongjiancopy:before {
+    content: "\e603";
+}
+
+.custom-icon-paichengcopy:before {
+    content: "\e604";
+}
+
+.custom-icon-qiandaocopy1:before {
+    content: "\e605";
+}
